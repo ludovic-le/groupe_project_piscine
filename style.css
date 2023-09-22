@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(179, 170, 170);
+}
+
+#btn_parapluie, #btn_chaise{
+    font-size: 3.5rem;
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+   
+
+}
+#btn_parapluie:hover, #btn_chaise:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.list{
+    text-align: center;
+    margin-top: 200px;
+    list-style: none;
+ 
+    line-height: 150px;
+}
