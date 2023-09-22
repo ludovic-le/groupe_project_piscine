@@ -1,5 +1,6 @@
 body{
     background-color: rgb(180, 180, 180);
+    font-family:"Fuggles" ;
 }
 
 #btn_parapluie, #btn_chaise{
@@ -11,7 +12,7 @@ body{
 }
 #btn_parapluie:hover, #btn_chaise:hover{
     color: black;
-    text-decoration: underline;
+   
 }
 
 .list{
