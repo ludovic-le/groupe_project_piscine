@@ -1,24 +1,56 @@
 body{
     background-color: rgb(180, 180, 180);
     font-family:"Fuggles" ;
+    background-image:url('chair_umbrella.jpg');
+}
+
+header{
+    padding-right: 20vw;
+}
+a{
+    text-decoration: none;
+    font-weight: 900;
+    color: black;
+}
+
+li{
+    width: 300px;
+    height:150px;
+    margin: 2rem;
 }
 
 #btn_parapluie, #btn_chaise{
     font-size: 3.5rem;
     text-decoration: none;
-    color: rgb(80, 80, 80);
-   
-
-}
-#btn_parapluie:hover, #btn_chaise:hover{
     color: black;
+    transition: all 0.5s ease-in-out;
+    padding: 10px 15px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    background-color: rgba(250, 235, 215, 0.20);
+    backdrop-filter: invert(80%);
+
    
+
 }
 
-.list{
+#btn_parapluie:hover, #btn_chaise:hover{
+    text-shadow: 6px 4px 7px #19381F;
+
+}
+
+h1{
+    font-size:4.5rem;
+    color:#19381F;
+    font-weight: 700;
+    backdrop-filter: invert(80%);
+    width: 60vw;
+    border-radius: 15px;
+}
+
+.list, h1{
     text-align: center;
-    margin-top: 200px;
+    margin-top: 150px;
     list-style: none;
- 
     line-height: 150px;
 }
